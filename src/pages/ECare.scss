@@ -1,0 +1,90 @@
+@mixin info-data {
+  display: flex;
+  margin: 1rem;
+  border: 1px solid cornflowerblue;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+
+.ECare {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "data mindRay mindRay mindRay wellA wellA"
+    "hcis lab lab image image complications";
+}
+
+.data {
+  grid-area: data;
+  @include info-data;
+}
+
+.hcis {
+  grid-area: hcis;
+  @include info-data;
+}
+
+.lab {
+  grid-area: lab;
+  @include info-data;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.image {
+  grid-area: image;
+  @include info-data;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.complications {
+  grid-area: complications;
+  @include info-data;
+}
+
+.mindRay {
+  grid-area: mindRay;
+  @include info-data;
+  align-items: flex-end;
+  padding: 1rem;
+
+  .mindRayTitle {
+    align-self: center;
+  }
+
+  .frCardiaca {
+    font-size: 3rem;
+  }
+
+  .so2 {
+    font-size: 3rem;
+  }
+
+  .tension {
+    align-self: center;
+  }
+}
+
+.wellA {
+  grid-area: wellA;
+  @include info-data;
+  align-items: center;
+
+  .temperatura {
+    padding: 1rem;
+    font-size: 3rem;
+  }
+
+  .frRespiratoria {
+    padding: 1rem;
+    font-size: 3rem;
+  }
+}
+
+
+
+
