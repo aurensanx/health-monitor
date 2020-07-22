@@ -1,0 +1,27 @@
+.App {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "screen screen screen screen screen screen screen"
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . .";
+}
+
+.screens {
+    grid-area: screen;
+    height: 30%;
+    border: 1px solid black;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
