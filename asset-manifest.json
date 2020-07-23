@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/health-monitor/static/css/main.82fc01fd.chunk.css",
+    "main.js": "/health-monitor/static/js/main.abef077f.chunk.js",
+    "main.js.map": "/health-monitor/static/js/main.abef077f.chunk.js.map",
+    "runtime-main.js": "/health-monitor/static/js/runtime-main.32565af2.js",
+    "runtime-main.js.map": "/health-monitor/static/js/runtime-main.32565af2.js.map",
+    "static/js/2.1c1ad720.chunk.js": "/health-monitor/static/js/2.1c1ad720.chunk.js",
+    "static/js/2.1c1ad720.chunk.js.map": "/health-monitor/static/js/2.1c1ad720.chunk.js.map",
+    "index.html": "/health-monitor/index.html",
+    "precache-manifest.0ecb7f2a03dec0844e433f8977302592.js": "/health-monitor/precache-manifest.0ecb7f2a03dec0844e433f8977302592.js",
+    "service-worker.js": "/health-monitor/service-worker.js",
+    "static/css/main.82fc01fd.chunk.css.map": "/health-monitor/static/css/main.82fc01fd.chunk.css.map",
+    "static/js/2.1c1ad720.chunk.js.LICENSE.txt": "/health-monitor/static/js/2.1c1ad720.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32565af2.js",
+    "static/js/2.1c1ad720.chunk.js",
+    "static/css/main.82fc01fd.chunk.css",
+    "static/js/main.abef077f.chunk.js"
+  ]
+}
