@@ -18,16 +18,6 @@ function Screens() {
 }
 
 function Cardio(props) {
-  // const [patientsInfo, setPatientsInfo] = useState(getInitialPatientInfo());
-  // useEffect(() => {
-  //   const intervalId = setInterval(() => {
-  //     setPatientsInfo(getPatientsInfo());
-  //   }, 2000);
-  //
-  //   return function cleanup() {
-  //     clearInterval(intervalId);
-  //   };
-  // });
   return (
     <div className="cardio">{props.patientsInfo.map(p => <Link className={p.color || 'green'} to={"/ecare/" + p.id} key={p.id}/>)}</div>
   )

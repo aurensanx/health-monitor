@@ -59,7 +59,6 @@ function WellA(props) {
 export function ECare(props) {
   const {patientId} = useParams();
   const patientInfo = props.patientsInfo.find(p => p.id === +patientId);
-  console.log(patientInfo.patient);
   document.title = 'Pantalla eCare';
   return (<div className="ECare">
     <Data/>
